@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api.csproj", "{9B22393E-5A34-44A1-982A-19C4F541A234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "GuapStalker.api\api.csproj", "{6A943B70-5B84-480B-A403-290F7856676E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
