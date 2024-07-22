@@ -4,7 +4,7 @@ namespace GuapStalker.Common.Models;
 
 public class GuapReport(User user)
 {
-    public int Id { get; set; }
+    public Ulid Id { get; set; }
     public DateTime ReportDate { get; set; }
     public decimal TotalIncome { get; set; }
     public decimal TotalExpense { get; set; }
