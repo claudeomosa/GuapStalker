@@ -2,6 +2,10 @@ using System.Data;
 
 namespace GuapStalker.Common.Models;
 
+/// <summary>
+/// Budget Model
+/// </summary>
+/// <param name="user"></param>
 public class Budget(User user)
 {
     public Ulid Id { get; set; }

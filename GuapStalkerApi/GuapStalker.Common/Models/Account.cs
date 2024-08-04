@@ -2,6 +2,13 @@ using System.Data;
 
 namespace GuapStalker.Common.Models;
 
+/// <summary>
+/// This is the Account Model
+/// An Account must belong to at least one user ... maybe different approach for joint accounts
+/// </summary>
+/// <param name="owner">
+/// Owner of the account
+/// </param>
 public class Account(User owner)
 {
     public Ulid Id { get; set; }

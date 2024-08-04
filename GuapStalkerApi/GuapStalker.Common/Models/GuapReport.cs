@@ -2,6 +2,10 @@ using System.Data;
 
 namespace GuapStalker.Common.Models;
 
+/// <summary>
+/// A report model
+/// </summary>
+/// <param name="user"></param>
 public class GuapReport(User user)
 {
     public Ulid Id { get; set; }

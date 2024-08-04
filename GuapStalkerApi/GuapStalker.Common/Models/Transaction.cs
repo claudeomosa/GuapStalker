@@ -2,6 +2,10 @@ using System.Data;
 
 namespace GuapStalker.Common.Models;
 
+/// <summary>
+/// Transaction model
+/// </summary>
+/// <param name="account"></param>
 public class Transaction(Account account)
 {
     public Ulid Id { get; set; }

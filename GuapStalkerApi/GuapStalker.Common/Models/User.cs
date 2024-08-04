@@ -1,5 +1,8 @@
 namespace GuapStalker.Common.Models;
 
+/// <summary>
+/// User model
+/// </summary>
 public class User
 {
     public Ulid Id { get; set; }
